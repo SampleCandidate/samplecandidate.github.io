@@ -2,15 +2,11 @@
 
 ## CURRENT
 
-- [ ] Increment 1.2 — Add identity, fiction label, and actions
-  - Outcome: Add the candidate identity, fictional-demo notice, working email action, website link, and PDF download link without adding unsupported claims or extra pages.
-  - Verification summary: Pending — verify the displayed email matches the resume, the website URL is exactly https://samplecandidate.github.io, the PDF link resolves to ./Sample_Candidate_Resume.pdf, the fiction notice is visible near the top and beside the download, and existing section navigation remains intact.
-
-## NEXT
-
 - [ ] Increment 2.1 — Add profile and lead with experience
   - Outcome: Add resume-backed profile and professional experience content with experience leading the substantive page, preserving the source meaning while keeping the narrative concise and recruiter-focused.
   - Verification summary: Pending — compare each profile and experience statement against the PDF, confirm experience follows the introduction and precedes remaining sections, and confirm navigation still reaches the correct anchors.
+
+## NEXT
 
 - [ ] Increment 2.2 — Add skills and education
   - Outcome: Populate the skills and education sections using only details explicitly present in the resume while preserving the existing section structure and actions.
@@ -33,3 +29,7 @@
 - [x] Increment 1.1 — Create the static page shell
   - Outcome: Established the root-level static page foundation with semantic document structure, section placeholders, navigation targets, and footer while keeping the page free of resume content, contact details, actions, and extra dependencies.
   - Verification summary: Verified — checked that all required section IDs exist, each navigation href matches exactly one section ID, the document has a valid basic HTML structure, and no scripts or extra dependencies were introduced. A Python HTML parser check passed.
+
+- [x] Increment 1.2 — Add identity, fiction label, and actions
+  - Outcome: Added the candidate identity, fictional-demo notice, working email action, website link, and PDF download link without adding unsupported claims or extra pages.
+  - Verification summary: Verified — confirmed the email link matches the resume address, the website URL is exactly https://samplecandidate.github.io, the PDF link points to ./Sample_Candidate_Resume.pdf, the fiction notice appears near the top and beside the resume action, and the section anchors remain intact. A Python check passed for these requirements.
