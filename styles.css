@@ -208,6 +208,30 @@ section {
   gap: 0.15rem;
 }
 
+.bullet-list,
+.project-list,
+.publication-list {
+  margin: 1rem 0 0;
+  padding-left: 1.25rem;
+}
+
+.bullet-list li + li,
+.project-list li + li,
+.publication-list li + li {
+  margin-top: 0.55rem;
+}
+
+.project-list h3,
+.publication-list h3 {
+  margin: 0 0 0.25rem;
+  font-size: 1.05rem;
+}
+
+.publication-note {
+  margin-top: 0.75rem;
+  color: #374151;
+}
+
 p {
   margin: 0;
 }
