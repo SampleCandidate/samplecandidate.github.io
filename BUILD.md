@@ -2,15 +2,11 @@
 
 ## CURRENT
 
-- [ ] Increment 3.1 — Apply the visual system and responsive layout
-  - Outcome: Style the full portfolio into a restrained blue-forward recruiting layout, make the identity and email action stand out, and ensure the page remains readable and usable on mobile and desktop.
-  - Verification summary: Pending — inspect the page at narrow and desktop viewport sizes, confirm content and anchors remain intact, verify keyboard focus visibility and text legibility, and check for overflow or obscured content caused by the layout.
-
-## NEXT
-
 - [ ] Increment 3.2 — Run acceptance checks and polish
   - Outcome: Complete the final acceptance pass to fix any remaining defects that prevent the implementation from matching the requirements without redesigning the site or adding features.
   - Verification summary: Pending — confirm all required sections and claims trace to the PDF, verify the fiction notice and resume download behavior, check semantic structure and keyboard accessibility, test mobile and desktop usability, and report any checks that could not be performed instead of assuming success.
+
+## NEXT
 
 ## COMPLETED
 
@@ -33,3 +29,7 @@
 - [x] Increment 2.3 — Add highlights, projects, and sample publications
   - Outcome: Added the remaining resume-backed highlights, projects, and sample publications while preserving the earlier actions and navigation and clearly labeling the publication references as sample-source materials.
   - Verification summary: Verified — confirmed the highlight bullets, project names, publication references, and note about sample-source credentials were source-traceable to the PDF and that the earlier email, website, and PDF actions stayed intact. A Python validation passed.
+
+- [x] Increment 3.1 — Apply the visual system and responsive layout
+  - Outcome: Styled the complete portfolio in a restrained blue-forward layout with a clear first-view identity, visible action hierarchy, readable spacing, and responsive mobile/desktop layout behavior.
+  - Verification summary: Verified — confirmed the page still includes all required sections and working actions, and the stylesheet includes the responsive mobile breakpoint and keyboard focus styling required for accessibility. Browser inspection was performed at desktop and narrow viewport widths.
