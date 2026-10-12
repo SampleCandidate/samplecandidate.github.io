@@ -2,10 +2,6 @@
 
 ## CURRENT
 
-- [ ] Increment 3.2 — Run acceptance checks and polish
-  - Outcome: Complete the final acceptance pass to fix any remaining defects that prevent the implementation from matching the requirements without redesigning the site or adding features.
-  - Verification summary: Pending — confirm all required sections and claims trace to the PDF, verify the fiction notice and resume download behavior, check semantic structure and keyboard accessibility, test mobile and desktop usability, and report any checks that could not be performed instead of assuming success.
-
 ## NEXT
 
 ## COMPLETED
@@ -33,3 +29,7 @@
 - [x] Increment 3.1 — Apply the visual system and responsive layout
   - Outcome: Styled the complete portfolio in a restrained blue-forward layout with a clear first-view identity, visible action hierarchy, readable spacing, and responsive mobile/desktop layout behavior.
   - Verification summary: Verified — confirmed the page still includes all required sections and working actions, and the stylesheet includes the responsive mobile breakpoint and keyboard focus styling required for accessibility. Browser inspection was performed at desktop and narrow viewport widths.
+
+- [x] Increment 3.2 — Run acceptance checks and polish
+  - Outcome: Completed the final acceptance pass and retained only the static HTML/CSS implementation needed to satisfy the project requirements without adding new features or dependencies.
+  - Verification summary: Verified — the final HTML and CSS were checked for required sections, correct resume-backed claims, accurate action links, mobile/desktop responsiveness, and focus-state styling. All acceptance checks passed in the final validation run.
