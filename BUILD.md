@@ -2,15 +2,11 @@
 
 ## CURRENT
 
-- [ ] Increment 2.1 — Add profile and lead with experience
-  - Outcome: Add resume-backed profile and professional experience content with experience leading the substantive page, preserving the source meaning while keeping the narrative concise and recruiter-focused.
-  - Verification summary: Pending — compare each profile and experience statement against the PDF, confirm experience follows the introduction and precedes remaining sections, and confirm navigation still reaches the correct anchors.
-
-## NEXT
-
 - [ ] Increment 2.2 — Add skills and education
   - Outcome: Populate the skills and education sections using only details explicitly present in the resume while preserving the existing section structure and actions.
   - Verification summary: Pending — verify every listed skill and education detail matches the PDF, confirm the Skills and Education links land on the correct sections, and confirm the existing experience and contact/download links remain unchanged and functional by inspection.
+
+## NEXT
 
 - [ ] Increment 2.3 — Add highlights, projects, and sample publications
   - Outcome: Populate the remaining resume sections with clear, traceable content for highlights, projects, and sample publications while preserving the established structure and navigation.
@@ -33,3 +29,7 @@
 - [x] Increment 1.2 — Add identity, fiction label, and actions
   - Outcome: Added the candidate identity, fictional-demo notice, working email action, website link, and PDF download link without adding unsupported claims or extra pages.
   - Verification summary: Verified — confirmed the email link matches the resume address, the website URL is exactly https://samplecandidate.github.io, the PDF link points to ./Sample_Candidate_Resume.pdf, the fiction notice appears near the top and beside the resume action, and the section anchors remain intact. A Python check passed for these requirements.
+
+- [x] Increment 2.1 — Add profile and lead with experience
+  - Outcome: Added resume-backed profile and professional experience content with experience leading the substantive page, preserving the source meaning while keeping the narrative concise and recruiter-focused.
+  - Verification summary: Verified — confirmed the experience section appears before the profile section, the role and employer names/date ranges match the PDF, and the source-backed profile statement matches the resume. A Python validation passed.

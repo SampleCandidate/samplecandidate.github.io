@@ -143,6 +143,37 @@ section {
   border-bottom: 1px solid #edf2f7;
 }
 
+.job {
+  margin-top: 1rem;
+}
+
+.job-header h3 {
+  margin: 0;
+  font-size: 1.25rem;
+}
+
+.job-header p {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1rem;
+  margin: 0.35rem 0 0.75rem;
+  color: #374151;
+  font-weight: 600;
+}
+
+.job ul {
+  margin: 0;
+  padding-left: 1.25rem;
+}
+
+.job li + li {
+  margin-top: 0.5rem;
+}
+
+p {
+  margin: 0;
+}
+
 footer {
   padding-top: 1rem;
   padding-bottom: 2rem;
