@@ -170,6 +170,44 @@ section {
   margin-top: 0.5rem;
 }
 
+.skill-groups {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.skill-group {
+  padding: 0.85rem 1rem;
+  border: 1px solid #dfeaf7;
+  border-radius: 0.5rem;
+  background: #f9fbff;
+}
+
+.skill-group h3 {
+  margin: 0 0 0.35rem;
+  font-size: 1rem;
+}
+
+.skill-group p {
+  margin: 0;
+}
+
+.education-list {
+  margin: 1rem 0 0;
+  padding-left: 1.25rem;
+}
+
+.education-list li + li {
+  margin-top: 0.75rem;
+}
+
+.edu-item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+}
+
 p {
   margin: 0;
 }

@@ -2,15 +2,11 @@
 
 ## CURRENT
 
-- [ ] Increment 2.2 — Add skills and education
-  - Outcome: Populate the skills and education sections using only details explicitly present in the resume while preserving the existing section structure and actions.
-  - Verification summary: Pending — verify every listed skill and education detail matches the PDF, confirm the Skills and Education links land on the correct sections, and confirm the existing experience and contact/download links remain unchanged and functional by inspection.
-
-## NEXT
-
 - [ ] Increment 2.3 — Add highlights, projects, and sample publications
   - Outcome: Populate the remaining resume sections with clear, traceable content for highlights, projects, and sample publications while preserving the established structure and navigation.
   - Verification summary: Pending — trace all statements in these sections to the PDF, confirm sample publications are described as source-based references rather than independent credentials, and verify all section links and earlier actions remain present.
+
+## NEXT
 
 - [ ] Increment 3.1 — Apply the visual system and responsive layout
   - Outcome: Style the full portfolio into a restrained blue-forward recruiting layout, make the identity and email action stand out, and ensure the page remains readable and usable on mobile and desktop.
@@ -33,3 +29,7 @@
 - [x] Increment 2.1 — Add profile and lead with experience
   - Outcome: Added resume-backed profile and professional experience content with experience leading the substantive page, preserving the source meaning while keeping the narrative concise and recruiter-focused.
   - Verification summary: Verified — confirmed the experience section appears before the profile section, the role and employer names/date ranges match the PDF, and the source-backed profile statement matches the resume. A Python validation passed.
+
+- [x] Increment 2.2 — Add skills and education
+  - Outcome: Added the skills and education content using only resume-backed values while preserving the existing structure and actions.
+  - Verification summary: Verified — confirmed the skills categories and education details match the PDF, the skills section follows the experience and profile sections, and the existing actions and navigation still remain intact. A Python validation passed.
